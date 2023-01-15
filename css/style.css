@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Tangerine:wght@700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.left-right-section {
+  background-color: #e4e6e3;
+  margin-top: 30px;
+}
+.profile-navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-left {
+  width: 40%;
+  text-align: center;
+  margin: 0 10px;
+}
+.profile-name {
+  font-family: "Tangerine", cursive;
+  font-size: 4vw;
+  font-weight: 700;
+}
+.profile-details {
+  font-family: "Roboto", sans-serif;
+  color: rgb(100, 141, 58);
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.navber {
+  width: 90%;
+  margin: 10px 20px;
+}
+.navber ul {
+  display: block;
+}
+.navber ul li {
+  list-style: none;
+  margin: 10px 0;
+  background-color: e4e6e3;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 8px rgb(255, 255, 255);
+  border-radius: 50px 50px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.navber ul li:hover {
+  box-shadow: 1px 1px 70px rgb(22, 17, 17);
+  color: red;
+}
+.navber ul li a {
+  text-decoration: none;
+  font-size: 1.4vw;
+}
+
+.right-profile-details {
+  width: 90%;
+  border-left: 3px solid rgb(250, 250, 250);
+  margin: 0 20px;
+  padding: 20px 30px;
+
+  box-shadow: inset 1px 0px 8px rgb(117, 116, 116);
+}
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-about {
+  padding: 0 35%;
+  font-size: 1.8vw;
+  font-weight: 700;
+}
+.about-color {
+  color: #1b9c5c;
+}
+
+.moon i {
+  border: 3px solid #e5e7e4;
+  box-shadow: 1px -1px 8px #fff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 3vw;
+  cursor: pointer;
+  color: #414340;
+}
+.left-number-plus-right-text {
+  display: flex;
+  align-items: center;
+}
+.experience-items {
+  display: flex;
+}
+.items-left-part {
+  text-align: center;
+}
+.num-text-item {
+  width: 130px;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px 10px;
+  margin: 10px 5px;
+  box-shadow: 1px 1px 8px rgba(70, 62, 62, 0.938);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.num-text-item:hover {
+  box-shadow: 0px 1px 8px rgba(139, 0, 0, 0.938);
+}
+.num-title {
+  padding: 1.2vw 0;
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+.num-details {
+  font-size: 0.9vw;
+  font-weight: 400;
+}
+.name-part-right {
+  margin: 0 2vw;
+}
+.name-title {
+  font-size: 3.5vw;
+  font-weight: 700;
+  color: #464844;
+  padding-bottom: 1vw;
+  font-family: "Tangerine", cursive;
+}
+.name-details {
+  color: #414340;
+  font-size: 1vw;
+  font-weight: 500;
+  padding-bottom: 2vw;
+}
+.btn {
+  padding: 0.5vw 2vw;
+  border-radius: 8px;
+  font-size: 1.3vw;
+  font-weight: 300;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  box-shadow: -1px 0px 8px rgb(110, 106, 106);
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #d7e9c562;
+  color: #1b9c5c;
+  box-shadow: -1px 0px 10px rgb(49, 48, 48);
+}
+.skill-items {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-item-left {
+  width: 100%;
+  margin-top: 2vw;
+}
+.skill-title-persentens {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7vw 0;
+}
+.title-presentens {
+  color: #414141;
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+.prograse-ber progress {
+  width: 90%;
+  height: 1vw;
+  background-color: #1a9c5c;
+  border: 1px solid #1a9c5c;
+  border-radius: 40px;
+}
